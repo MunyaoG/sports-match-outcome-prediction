@@ -51,6 +51,4 @@ Aston Villa : 22%
 ## Notes & Limitations
 
 * Predictions are based purely on historical weighted win/loss/draw rates by team — they don't account for squad changes, injuries, form, or head-to-head history.
-* Team lookups only cover clubs present in the underlying database (2008/09–2015/16 seasons), so more recent transfers or newly promoted clubs won't be recognized.
-* `predict_result` returns an error string (rather than raising) for unrecognized teams or identical home/away input.
 * Team short names are matched case-insensitively (input is upper-cased before lookup).
